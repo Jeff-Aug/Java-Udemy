@@ -44,20 +44,14 @@ public class Employee {
 		return valuePerHour;
 	}
 
-
 	public void setValuePerHour(Double valuePerHour) {
 		this.valuePerHour = valuePerHour;
 	}
 	
-	
 	public double payment() {
-		
-		
+				
 		 	return this.valuePerHour * this.hours ;
 		
 	}
-
-
-	
 	
 }
